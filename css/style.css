@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*Variables des couleurs CSS*/
+:root {
+    --Green200lighter: hsl(148, 38%, 91%);
+    --Green600medium : hsl(169, 82%, 27%);
+    --Red: hsl(0, 66%, 54%);
+    --White: hsl(0, 0%, 100%);
+    --Grey500medium: hsl(186, 15%, 59%);
+    --Grey900darker: hsl(187, 24%, 22%);
+}
+
+/*Reinitialisation du Parametre général * */
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+/*Parametre du body*/
+body {
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--Green200lighter);
+}
+
+
+.attribution {font-size: 11px; text-align: center;}
+.attribution {color: hsl(228, 45%, 44%);}
