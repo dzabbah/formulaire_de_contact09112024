@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/js/main.js">
+</head>
+<body>
+    <h3>Contact Us</h3>
+    <div>
+        <div>
+            <label for="first-name">First Name <span>*</span></label>
+            <input type="text" id="first-name">
+            <small>This field is required</small>
+        </div>
+        <div>
+            <label for="last-name">Last Name <span>*</span></label>
+            <input type="text" id="last-name">
+            <small>This field is required</small>
+        </div>
+    </div>
+
+    <div>
+        <label for="email-address">Email Address <span>*</span></label>
+        <input type="text" id="email-address">
+        <small>This field is required</small>
+        <small>Please enter a valid email address</small>
+    </div>
+
+    <div>
+        <h5>Query Type <span>*</span></h5>
+        <div>
+            <input type="radio" id="first-name" />
+            <label for="first-name">Genenral Enquiry</label>
+        </div>
+        <div>
+            <input type="radio" id="first-name" />
+            <label for="first-name">Support Request</label>
+        </div>
+        <small>Please select a query type</small>
+    </div>
+
+    <div>
+        <label for="message">Message <span>*</span></label>
+        <textarea id="message">veuillez ecrire un message</textarea>
+        <small>This field is required</small>
+    </div>
+
+    <div>
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox">I consent to being contacted by the team <span>*</span></label>
+    </div>
+    <small>To submit this form, please consent to being contacted Submit Message Sent!</small>
+
+    <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        Coded by <a href="#">ndk group</a>.
+    </div>
+</body>
+</html>
