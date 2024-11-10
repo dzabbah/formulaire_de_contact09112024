@@ -33,3 +33,48 @@ body {
 
 .attribution {font-size: 11px; text-align: center;}
 .attribution {color: hsl(228, 45%, 44%);}
+
+form {
+    width: 400px;
+    height:  500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: var(--White);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+form h1 {
+    color: var(--Grey900darker);
+    text-align: left;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: var(--Green600medium);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.fname, .allradio {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-control input, .radio, textarea {
+    border: 2px solid var(--Grey500medium);
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 80%;
+}
+
