@@ -84,12 +84,68 @@ form button {
     width: 90%;
 }
 
-.input-control input, .radio, textarea {
+.input-control input, .radio {
     border: 2px solid var(--Grey500medium);
 	border-radius: 4px;
 	display: block;
 	font-size: 12px;
 	padding: 10px;
-	width: 80%;
+	width: 100%;
 }
 
+#email-address, textarea {
+    border: 2px solid var(--Grey500medium);
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+small {
+    visibility: hidden;
+}
+
+span {
+    color: var(--Green600medium) ;
+}
+
+.input-control #first-name, .input-control #last-name {
+    width: 100%;
+}
+
+.allradio #genenral-enquiry, .allradio #support-request {
+    width: 
+}
+
+
+/*
+@media(max-width: 375px){
+    form{
+        min-width: 280px;
+    }
+
+    .input-control{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .input-control #first-name, .input-control #last-name{
+        justify-content: space-between;
+    }
+
+    .allradio{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .input-control{
+        max-height: 380px;
+        overflow: auto;
+    }
+
+    .input-control::-webkit-scrollbar{
+        width: 0;
+    }
+}
