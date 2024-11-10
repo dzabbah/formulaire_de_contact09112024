@@ -8,51 +8,71 @@
     <link rel="stylesheet" href="/js/main.js">
 </head>
 <body>
-    <h3>Contact Us</h3>
-    <div>
+    <form>
+        <h1>Contact Us</h1>
+
+        <div class="fname">
+            <div class="input-control">
+                <label for="first-name">First Name <span>*</span></label>
+                <input type="text" id="first-name">
+                <small>This field is required</small>
+            </div>
+            <div class="input-control">
+                <label for="last-name">Last Name <span>*</span></label>
+                <input type="text" id="last-name">
+                <small>This field is required</small>
+            </div>
+        </div>
+
+        <div class="input-control">
+            <label for="email-address">Email Address <span>*</span></label>
+            <input type="text" id="email-address">
+            <small>This field is required</small>
+            <small>Please enter a valid email address</small>
+        </div>
+
         <div>
-            <label for="first-name">First Name <span>*</span></label>
-            <input type="text" id="first-name">
+            <h5>Query Type <span>*</span></h5>
+            <div class="allradio">
+                <div class="radio">
+                    <input type="radio" id="genenral-enquiry" />
+                    <label for="genenral-enquiry">Genenral Enquiry</label>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="support-request" />
+                    <label for="support-request">Support Request</label>
+                </div>
+            </div>
+            <small>Please select a query type</small>
+        </div>
+
+        <div>
+            <label for="message">Message <span>*</span></label>
+            <textarea id="message">veuillez ecrire un message</textarea>
             <small>This field is required</small>
         </div>
+
         <div>
-            <label for="last-name">Last Name <span>*</span></label>
-            <input type="text" id="last-name">
-            <small>This field is required</small>
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox">I consent to being contacted by the team <span>*</span></label>
+        </div>
+   
+        <small>To submit this form, please consent to being contacted Submit Message Sent!</small>
+    
+        <button type="button">Submit</button>
+
+    </form>
+
+    <div>
+        <div>
+            <i>#</i>
+            <h5>Message sent !</h5>
         </div>
     </div>
 
-    <div>
-        <label for="email-address">Email Address <span>*</span></label>
-        <input type="text" id="email-address">
-        <small>This field is required</small>
-        <small>Please enter a valid email address</small>
+        <small>Thanks for completing the form. We'll be in touch soon!</small>
     </div>
-
-    <div>
-        <h5>Query Type <span>*</span></h5>
-        <div>
-            <input type="radio" id="first-name" />
-            <label for="first-name">Genenral Enquiry</label>
-        </div>
-        <div>
-            <input type="radio" id="first-name" />
-            <label for="first-name">Support Request</label>
-        </div>
-        <small>Please select a query type</small>
-    </div>
-
-    <div>
-        <label for="message">Message <span>*</span></label>
-        <textarea id="message">veuillez ecrire un message</textarea>
-        <small>This field is required</small>
-    </div>
-
-    <div>
-        <input type="checkbox" id="checkbox" />
-        <label for="checkbox">I consent to being contacted by the team <span>*</span></label>
-    </div>
-    <small>To submit this form, please consent to being contacted Submit Message Sent!</small>
 
     <div class="attribution">
         Challenge by
